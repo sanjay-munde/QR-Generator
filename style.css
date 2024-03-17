@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.main {
+  width: 80%;
+  max-width: 500px;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 10px 10px 30px #cfcfcf, -10px -10px 30px #ffffff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input {
+  width: calc(100% - 20px);
+  margin: 15px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.btn {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 15px 0;
+  border: none;
+  border-radius: 5px;
+  background: #4CAF50;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.downloadBtn {
+  width: calc(100% - 20px);
+  margin-top: 10px;
+  text-align: center;
+}
+
+.downloadButton {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background: #2196F3;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.code {
+  display: none;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#toast {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  background: #07f49e;
+  color: white;
+  border-radius: 5px;
+  display: none;
+}
