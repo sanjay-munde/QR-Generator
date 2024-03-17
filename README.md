@@ -24,4 +24,4 @@ Simply open the `index.html` file in a web browser to run the application locall
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/sanjay-munde/QR/edit/main/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/sanjay-munde/QR-Generator/edit/main/LICENSE) file for details.
